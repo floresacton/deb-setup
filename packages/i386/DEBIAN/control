@@ -4,5 +4,5 @@ Section: misc
 Priority: optional
 Architecture: i386
 Maintainer: Miguel Flores-Acton <floresacton@gmail.com>
-Depends: git, tree, sl
+Depends: git, tree, sl, iftop
 Description: Package to automatically install all my packages

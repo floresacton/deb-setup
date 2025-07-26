@@ -26,6 +26,8 @@ mkdir -p "$POOL_DIR"
 
 DEPS=$(awk '{printf "%s%s", sep, $0; sep=", "} END{print ""}' deps.txt)
 
+echo "DEPS: ${DEPS}"
+
 for ARCH in "${ARCHS[@]}"; do
     BUILD_DIR="packages/$ARCH"
     CONTROL_DIR="$BUILD_DIR/DEBIAN"
