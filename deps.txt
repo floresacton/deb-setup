@@ -2,3 +2,4 @@ git
 tree
 sl
 iftop
+dillo
