@@ -1,0 +1,8 @@
+Package: deb-setup
+Version: 1.0
+Section: misc
+Priority: optional
+Architecture: i386
+Maintainer: Miguel Flores-Acton <floresacton@gmail.com>
+Depends: git, tree, sl
+Description: Package to automatically install all my packages

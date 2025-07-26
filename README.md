@@ -1,2 +1,2 @@
 # deb-setup
-Debian meta package for dependencies
+Package to automatically install all my packages
