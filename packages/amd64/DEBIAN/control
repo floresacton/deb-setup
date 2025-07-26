@@ -4,5 +4,9 @@ Section: misc
 Priority: optional
 Architecture: amd64
 Maintainer: Miguel Flores-Acton <floresacton@gmail.com>
+<<<<<<< HEAD
 Depends: git, tree
+=======
+Depends: git, tree, sl, iftop, dillo, fluxbox
+>>>>>>> 26bf9cd5e0a7b7af60e61983a432c2bec2a87b43
 Description: Package to automatically install all my packages
