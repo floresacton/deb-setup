@@ -24,7 +24,7 @@ rm -rf "dists"
 
 mkdir -p "$POOL_DIR"
 
-DEPS=$(awk '{printf "%s%s", sep, $0; sep=", "} END{print ""}' deps.txt)
+DEPS=$(awk 'NF {printf "%s%s", sep, $0; sep=", "} END{print ""}' deps.txt)
 
 echo "DEPS: ${DEPS}"
 
