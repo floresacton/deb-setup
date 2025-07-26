@@ -3,4 +3,5 @@ tree
 sl
 iftop
 dillo
+fluxbox
 
